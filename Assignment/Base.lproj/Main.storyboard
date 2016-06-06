@@ -82,8 +82,14 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVT-AI-NfT">
-                                                    <rect key="frame" x="529" y="8" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVT-AI-NfT">
+                                                    <rect key="frame" x="550" y="8" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4M-tR-xFM">
+                                                    <rect key="frame" x="550" y="37" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -97,10 +103,12 @@
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7hb-Sc-VGh" secondAttribute="trailing" constant="8" id="MAf-81-fQV"/>
                                                 <constraint firstAttribute="trailing" secondItem="qVT-AI-NfT" secondAttribute="trailing" constant="8" id="UTT-hh-saK"/>
                                                 <constraint firstItem="7hb-Sc-VGh" firstAttribute="top" secondItem="Ufk-f7-Ru3" secondAttribute="bottom" constant="8" id="aAr-2A-3VT"/>
+                                                <constraint firstItem="y4M-tR-xFM" firstAttribute="top" secondItem="qVT-AI-NfT" secondAttribute="bottom" constant="8" id="b6K-jc-hmS"/>
                                                 <constraint firstItem="Ufk-f7-Ru3" firstAttribute="leading" secondItem="lc9-3S-26g" secondAttribute="leading" constant="8" id="epD-UT-ZSv"/>
                                                 <constraint firstItem="Ufk-f7-Ru3" firstAttribute="top" secondItem="VnN-jV-YdK" secondAttribute="bottom" constant="8" id="fkH-Lq-RsK"/>
                                                 <constraint firstItem="7hb-Sc-VGh" firstAttribute="leading" secondItem="lc9-3S-26g" secondAttribute="leading" constant="8" id="sXy-y1-cac"/>
                                                 <constraint firstItem="Lf1-qU-yPO" firstAttribute="leading" secondItem="VnN-jV-YdK" secondAttribute="trailing" constant="64" id="te2-LZ-Vgm"/>
+                                                <constraint firstAttribute="trailing" secondItem="y4M-tR-xFM" secondAttribute="trailing" constant="8" id="xDV-gT-hPS"/>
                                                 <constraint firstItem="VnN-jV-YdK" firstAttribute="leading" secondItem="lc9-3S-26g" secondAttribute="leading" constant="8" id="xvT-le-dpr"/>
                                                 <constraint firstItem="Lf1-qU-yPO" firstAttribute="top" secondItem="VnN-jV-YdK" secondAttribute="top" id="z00-20-kWC"/>
                                             </constraints>
@@ -111,6 +119,7 @@
                                             <outlet property="noteLabel" destination="7hb-Sc-VGh" id="fKi-k1-SPK"/>
                                             <outlet property="recipientLabel" destination="Lf1-qU-yPO" id="1vs-LG-5m7"/>
                                             <outlet property="senderLabel" destination="VnN-jV-YdK" id="H35-Pv-SxM"/>
+                                            <outlet property="timeLabel" destination="y4M-tR-xFM" id="fwH-P1-UlR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

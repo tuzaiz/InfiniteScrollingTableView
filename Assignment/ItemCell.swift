@@ -35,6 +35,14 @@ class ItemCell: UITableViewCell {
         self.amountLabel.text = "\(item.destination.currency) \(item.destination.amount)"
         self.noteLabel.text = item.source.note
         self.idLabel.text = "\(item.id)"
+        
+        let timeFormatter = NSDateFormatter()
+        timeFormatter.dateStyle = .ShortStyle
+        timeFormatter.timeStyle = .ShortStyle
+        self.timeLabel.text = timeFormatter.stringFromDate(item.created)
+        
+        self.setNeedsLayout()
+        self.layoutIfNeeded()
     }
 
 }
