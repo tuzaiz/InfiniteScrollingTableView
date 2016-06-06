@@ -14,6 +14,7 @@
 		47F6AFC81D056C8400A683A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F6AFC61D056C8400A683A4 /* LaunchScreen.storyboard */; };
 		47F6AFD11D056DB300A683A4 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6AFD01D056DB300A683A4 /* ListManager.swift */; };
 		47F6AFD41D0571E300A683A4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6AFD31D0571E300A683A4 /* Item.swift */; };
+		47F6AFDA1D05787500A683A4 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6AFD91D05787500A683A4 /* ItemCell.swift */; };
 		C83D06A1E435E07ACE93A097 /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93940E80446DD5AFE61576E3 /* Pods_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		47F6AFC91D056C8400A683A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F6AFD01D056DB300A683A4 /* ListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 		47F6AFD31D0571E300A683A4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		47F6AFD91D05787500A683A4 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		93940E80446DD5AFE61576E3 /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			children = (
 				47F6AFBD1D056C8400A683A4 /* AppDelegate.swift */,
 				47F6AFBF1D056C8400A683A4 /* ListViewController.swift */,
+				47F6AFD81D05786700A683A4 /* Views */,
 				47F6AFCF1D056D9900A683A4 /* Managers */,
 				47F6AFD21D0571C200A683A4 /* Models */,
 				47F6AFC11D056C8400A683A4 /* Main.storyboard */,
@@ -91,6 +94,14 @@
 				47F6AFD31D0571E300A683A4 /* Item.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		47F6AFD81D05786700A683A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47F6AFD91D05787500A683A4 /* ItemCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		5439427645A5533227C5247C /* Frameworks */ = {
@@ -236,6 +247,7 @@
 				47F6AFC01D056C8400A683A4 /* ListViewController.swift in Sources */,
 				47F6AFD11D056DB300A683A4 /* ListManager.swift in Sources */,
 				47F6AFBE1D056C8400A683A4 /* AppDelegate.swift in Sources */,
+				47F6AFDA1D05787500A683A4 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
